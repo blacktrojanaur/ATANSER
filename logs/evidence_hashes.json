@@ -1,0 +1,5 @@
+{
+  "processes.txt": "<paste hash from hash_processes.txt>",
+  "network_connections.txt": "<paste hash from hash_network.txt>",
+  "dir_map.txt": "<paste hash from hash_dirmap.txt>"
+}
