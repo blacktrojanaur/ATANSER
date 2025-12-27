@@ -1,0 +1,10 @@
+# Ignore forensic evidence folders (privacy)
+forensics/evidence_live/
+forensics/evidence_disk/
+
+# Ignore private keys (safety)
+certs/*.key
+*.pem
+*.raw
+*.raw
+logs/*.raw
