@@ -12,11 +12,17 @@ func main() {
 	logs.InitLogger()
 	logs.LogInfo("ATANSER system booting up...")
 
-	// Test simulation
-	monitor.SimulateThreat("ARP_SPOOFING")
+	// Trigger threat simulation
+	monitor.RunSimulationMenu()
+
+	// Choose a safe route
 	route := reroute.SelectSafeRoute()
-	integrity.StoreHashRecord("RoutingTable", "FAKE_HASH_001")
+
+	// Store integrity hash record
+	integrity.StoreHashRecord("RoutingTable", "SIMULATED_HASH_001")
+
+	// Launch CLI dashboard
 	dashboard.ShowDashboard()
 
-	println("System active on route:", route)
+	println("\nSystem active on route:", route)
 }
