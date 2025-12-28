@@ -1,4 +1,10 @@
 # ATANSER
+![Go](https://img.shields.io/badge/Go-1.21%2B-blue)
+![Cybersecurity](https://img.shields.io/badge/Domain-CyberSecurity-red)
+![Forensics](https://img.shields.io/badge/Module-Digital%20Forensics-yellow)
+![Networking](https://img.shd3mre u8d.io/badge/Infra-Secure%20Tunnels-green)
+![Patent-Ready](https://img.shields.io/badge/Innovation-Patent%20Grade-purple)
+
 Project Vision
 
 ATANSER is designed to secure digital communication over untrusted networks by creating encrypted tunnels and monitoring routing integrity while capturing both live and disk forensics evidence with cryptographic verification and automatic secure rerouting when threats are detected.
