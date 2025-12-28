@@ -1,9 +1,24 @@
 # ATANSER
-![Go](https://img.shields.io/badge/Go-1.21%2B-blue)
-![Cybersecurity](https://img.shields.io/badge/Domain-CyberSecurity-red)
-![Forensics](https://img.shields.io/badge/Module-Digital%20Forensics-yellow)
-![Networking](https://img.shd3mre u8d.io/badge/Infra-Secure%20Tunnels-green)
-![Patent-Ready](https://img.shields.io/badge/Innovation-Patent%20Grade-purple)
+# ATANSER
+
+![Go 1.21+](https://img.shields.io/badge/Go-1.21%2B-blue)
+![Domain CyberSecurity](https://img.shields.io/badge/Domain-CyberSecurity-red)
+![Module Digital Forensics](https://img.shields.io/badge/Module-Digital%20Forensics-yellow)
+![Networking](https://img.shields.io/badge/Infra-Networking-green)
+![Innovation Patent Grade](https://img.shields.io/badge/Innovation-Patent%20Grade-purple)
+
+---
+
+## 🚀 Vision
+ATANSER is an autonomous threat-aware secure tunnel framework designed for open-world infrastructure protection.
+
+## 💡 Why this stands out
+A unified cybersecurity system integrating:
+- Network attack detection (ARP, BGP, MITM)
+- Forensic snapshot integrity hashing
+- Autonomous tunnel teardown & safe rerouting
+- High-concurrency monitoring in Go
+
 
 Project Vision
 
