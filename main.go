@@ -1,24 +1,22 @@
 package main
 
 import (
+	"ATANSER/dashboard"
+	"ATANSER/integrity"
 	"ATANSER/logs"
 	"ATANSER/monitor"
+	"ATANSER/reroute"
 )
 
 func main() {
 	logs.InitLogger()
 	logs.LogInfo("ATANSER system booting up...")
 
-	// Simulated fingerprints for now (you replace with real ones later)
-	fakeMAC := "AA:BB:CC:DD:EE:11"
-	trustedMAC := "AA:BB:CC:DD:EE:22"
+	// Test simulation
+	monitor.SimulateThreat("ARP_SPOOFING")
+	route := reroute.SelectSafeRoute()
+	integrity.StoreHashRecord("RoutingTable", "FAKE_HASH_001")
+	dashboard.ShowDashboard()
 
-	fakeRouteHash := "HASH_1234"
-	trustedRouteHash := "HASH_9999"
-
-	// Run detectors
-	monitor.DetectARPSpoof(fakeMAC, trustedMAC)
-	monitor.DetectBGPChange(fakeRouteHash, trustedRouteHash)
-
-	println("ATANSER Phase 3 modules running...")
+	println("System active on route:", route)
 }
