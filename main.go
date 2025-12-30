@@ -29,6 +29,14 @@ func main() {
 
 	// Launch CLI dashboard
 	dashboard.ShowDashboard()
+	// Read threat log file
+	logBytes, err := os.ReadFile("logs/ATANSER_threats.log")
+	if err == nil {
+		monitor.AnalyzeThreatLog(string(logBytes))
+		monitor.ReportDeletionLayers(string(logBytes))
+	} else {
+		println("No threat logs found for analysis")
+	}
 
 	println("\nSystem active on route:", route)
 }
