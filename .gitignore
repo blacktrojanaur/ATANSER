@@ -8,3 +8,7 @@ certs/*.key
 *.raw
 *.raw
 logs/*.raw
+logs/*.txt
+forensics/
+
+

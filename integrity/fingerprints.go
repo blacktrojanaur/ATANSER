@@ -1,6 +1,6 @@
 package integrity
 
 var (
-	TrustedGatewayMAC = ""
-	RoutingTableHash  = ""
+	TrustedGatewayMAC = "40-23-43-2A-34-E3"
+	RoutingTableHash  = "8D64BC09BA8B9F1160640454650EFD96492A07DA7D7A712CB3E271C453CBD876"
 )
