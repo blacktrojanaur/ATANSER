@@ -18,6 +18,12 @@ func main() {
 	// Snapshot current route table hash (placeholder for later real hash)
 	integrity.TakeSnapshot("RoutingTable", "SIM_HASH_ABC_002")
 
+	// Test packet fingerprint capture
+	monitor.CapturePacketFingerprint("192.168.1.55", 512, "UDP")
+
+	// Snapshot current route table hash (placeholder for later real hash)
+	integrity.TakeSnapshot("RoutingTable", "SIM_HASH_ABC_002")
+
 	// Run threat simulation menu
 	monitor.RunSimulationMenu()
 
