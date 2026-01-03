@@ -21,3 +21,12 @@ func LogThreat(threat string) {
 func LogInfo(info string) {
 	log.Println("[INFO]", info)
 }
+
+// Expose log reading to GUI
+func ReadThreatLogs() string {
+	data, err := os.ReadFile("ATANSER_threats.log")
+	if err != nil {
+		return ""
+	}
+	return string(data)
+}

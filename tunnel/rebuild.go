@@ -1,6 +1,6 @@
 package tunnel
 
-import "ATANSER/logs"
+import "Atanser/logs"
 
 func RebuildTunnel(route string) {
 	logs.LogInfo("Tunnel REBUILT on fallback route: " + route)

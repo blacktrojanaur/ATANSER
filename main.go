@@ -10,6 +10,7 @@ import (
 )
 
 func main() {
+
 	logs.InitLogger()
 	logs.LogInfo("ATANSER system booting up...")
 	// Test packet fingerprint capture
