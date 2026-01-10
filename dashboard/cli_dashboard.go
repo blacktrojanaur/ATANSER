@@ -1,6 +1,6 @@
 ﻿package dashboard
 
-import "ATANSER/logs"
+import "Atanser/logs"
 
 func ShowDashboard() {
 	logs.LogInfo("Dashboard launched")

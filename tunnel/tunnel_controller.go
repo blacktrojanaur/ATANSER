@@ -1,6 +1,6 @@
 package tunnel
 
-import "ATANSER/logs"
+import "Atanser/logs"
 
 func StartTunnel(route string) {
 	TunnelActive = true

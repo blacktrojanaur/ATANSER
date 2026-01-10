@@ -1,6 +1,6 @@
 ﻿package reroute
 
-import "ATANSER/logs"
+import "Atanser/logs"
 
 func SelectSafeRoute() string {
 	return "Server_B_Safe"

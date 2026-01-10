@@ -1,7 +1,7 @@
 package monitor
 
 import (
-	"ATANSER/logs"
+	"Atanser/logs"
 	"strings"
 )
 

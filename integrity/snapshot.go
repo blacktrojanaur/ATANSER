@@ -1,7 +1,7 @@
 package integrity
 
 import (
-	"ATANSER/logs"
+	"Atanser/logs"
 	"time"
 )
 

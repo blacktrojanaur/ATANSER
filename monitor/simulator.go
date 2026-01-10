@@ -1,6 +1,6 @@
 package monitor
 
-import "ATANSER/logs"
+import "Atanser/logs"
 
 func RunSimulationMenu() {
 	logs.LogInfo("Threat simulation menu launched")

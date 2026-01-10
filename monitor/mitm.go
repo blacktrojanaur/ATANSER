@@ -1,6 +1,6 @@
 package monitor
 
-import "ATANSER/logs"
+import "Atanser/logs"
 
 func SimulateThreat(threat string) {
 	logs.LogThreat("Simulated threat triggered: " + threat)

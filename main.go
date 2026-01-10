@@ -1,11 +1,11 @@
 package main
 
 import (
-	"ATANSER/dashboard"
-	"ATANSER/integrity"
-	"ATANSER/logs"
-	"ATANSER/monitor"
-	"ATANSER/reroute"
+	"Atanser/dashboard"
+	"Atanser/integrity"
+	"Atanser/logs"
+	"Atanser/monitor"
+	"Atanser/reroute"
 	"os"
 )
 

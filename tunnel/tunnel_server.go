@@ -1,7 +1,7 @@
 package tunnel
 
 import (
-	"ATANSER/logs"
+	"Atanser/logs"
 	"net"
 )
 

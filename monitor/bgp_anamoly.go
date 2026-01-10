@@ -1,8 +1,8 @@
 package monitor
 
 import (
-	"ATANSER/integrity"
-	"ATANSER/logs"
+	"Atanser/integrity"
+	"Atanser/logs"
 )
 
 func DetectBGPChange(currentHash string) {
