@@ -3,6 +3,7 @@ package logs
 import (
 	"log"
 	"os"
+	"time"
 )
 
 func InitLogger() {
@@ -29,4 +30,9 @@ func ReadThreatLogs() string {
 		return ""
 	}
 	return string(data)
+}
+func LogEvent(msg string) {
+	f, _ := os.OpenFile("logs/runtime.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	defer f.Close()
+	f.WriteString(time.Now().Format(time.RFC3339) + " :: " + msg + "\n")
 }

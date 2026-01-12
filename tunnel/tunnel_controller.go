@@ -7,12 +7,18 @@ func StartTunnel(route string) {
 	CurrentRoute = route
 	logs.LogInfo("Tunnel STARTED on route: " + route)
 	println("Tunnel started on route:", route)
+	logs.LogEvent("Tunnel STARTED")
+	logs.LogEvent("Tunnel STOPPED")
+
 }
 
 func StopTunnel(reason string) {
 	TunnelActive = false
 	logs.LogThreat("Tunnel STOPPED due to: " + reason)
 	println("Tunnel stopped! Reason:", reason)
+	logs.LogEvent("Tunnel STARTED")
+	logs.LogEvent("Tunnel STOPPED")
+
 }
 
 func RebuildTunnel(route string) {
