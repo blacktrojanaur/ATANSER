@@ -8,6 +8,7 @@ type CoreState struct {
 	TunnelState bool
 }
 
+
 // Global instance (exported, capital C is allowed because it's a variable, not import path)
 var Core = &CoreState{
 	ThreatLevel: 0,
