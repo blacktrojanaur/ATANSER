@@ -10,7 +10,7 @@
 ---
 
 ## 🚀 Vision
-ATANSER is an autonomous threat-aware secure tunnel framework designed for open-world infrastructure protection.
+ATANSER is an autonomous threat-aware secure tunnel framework designed for open-world infrastructure protection
 
 ## 💡 Why this stands out
 A unified cybersecurity system integrating:
