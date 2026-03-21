@@ -17,7 +17,7 @@ A unified cybersecurity system integrating:
 - Network attack detection (ARP, BGP, MITM)
 - Forensic snapshot integrity hashing
 - Autonomous tunnel teardown & safe rerouting
-- High-concurrency monitoring in Go
+- High-concurrency monitoring in GO
 
 
 Project Vision
